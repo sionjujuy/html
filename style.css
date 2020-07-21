@@ -1,0 +1,187 @@
+*{
+    font-family: Roboto;
+    margin:0;
+ 
+
+ }
+ .main{
+    padding-top: 14rem; /*al dejar fijo se mantiene sin dar saltos*/
+}
+
+*
+ body{
+     background-color: #e89700;
+ }
+img{
+    display:block;
+    margin:auto;
+}
+ .h1{
+     padding-bottom: 2em;
+ }
+
+.header{
+    padding: 1rem; /*le da tamaño arriba y abajo*/
+    position: fixed; /*con esto deja fijo los munus al deslizar pagina*/
+    left: 0;    /*les da al menu la posision son atributos de position*/
+    top: 0;
+    right:0; 
+    background-color: #00171F;
+    color: #FFFFFF;
+
+    /* https://coolors.co/ffffff-00171f-003459-007ea7-00a8e8 paleta de colores*/
+}
+
+ .header a{   
+    text-decoration: none; /*le saca la linea de subrayado*/
+     color: #FFFFFF;
+     font-size: 20px;
+ }
+ .container {
+     width: 90%;
+     max-width: 85%;   /*aca cambiar toda la pagina el tamaño  estaba antes en 850px*/
+     margin: 0 auto;
+ }
+ .name-nav-list{ /* ordena el menu separando */
+    align-items: center;
+    justify-content: space-between;
+    display: flex; /*obliga que se pongan en linea*/
+
+
+ }
+
+.main-text{ /* el texto de la pagina del logo*/
+    letter-spacing: 10px;
+    font-size: 1.8m;
+
+}
+
+ .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* elimina el simbolo de lista */
+ 
+}
+ 
+
+.navigation ul li{
+    display: inline-block; /* alinia las lista de menu */
+}
+ 
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear; /* esto animia el meno de navegacion al pasar el mouse */
+}
+.navigation ul li a:hover{
+/* Comentario cambiar color de mouse selecion */
+background:#e89700;
+}
+
+/*tabla*/
+
+table {
+    border-collapse: collapse;
+    background-color: #e89700;
+    width: 100%;
+    margin-bottom: 20px;
+
+    }
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    background-color: #003459;
+    color: white;
+}
+  
+
+ /*aca ccs de productos  */
+ div.bici1 {
+    border: #f13d06c4 3px solid;
+     float: right;
+     margin: 20px auto;
+ }
+ 
+ div.izquierda1 { 
+     text-align: center;
+ }
+ 
+ 
+ div.bici1 img {
+    width: 50% ;
+    height: auto;
+    float: left;
+}  
+
+/* css de contacto*/
+.contac {
+    width: 450px;
+    position: static; /*el fomulario no se suporpoe*/
+    margin: 0 auto;
+    padding: 1em;
+ }
+
+h1 {
+    text-align: left;
+    margin: 50px;
+}
+
+
+.input_name, .input_email, .input_topic ,.input_message {
+    
+    display: inline-flex; /*alinea el formulario*/
+    font-size: 20px;
+    margin: 40px auto;  /*separa arriba y abajo los imput del formulario */
+    text-align: left; /*pone todo sobre la izquierda los box y nombres*/
+}
+
+
+.submit_form {   
+    text-align: center;  /*boton enviar */
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.name {
+    font-size: 20px;
+}
+.email {
+    font-size: 20px;    
+}
+
+.select {
+    font-size: 20px;    
+
+}
+.message{
+    font-size: 20px;
+ }
+
+
+label{
+    text-align: left;      /*pone los nombres a la izquierda    */
+    width: 80px;    
+}
+
+input[type="submit"] {   /*cambia tamaño de boton enviar*/
+    height: 30px;        
+    width:  100px;
+    font-size: 15px;
+}
+
+.street   {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mapa {
+    display: flex;   /*es responsive el centrado  de mapa*/
+    justify-content: center;  /*es responsive el centrado  de mapa*/
+    padding: 2%;
+    
+}
+
+
